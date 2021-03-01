@@ -10,5 +10,14 @@ export class TopicsOverviewComponent implements OnInit {
 
   ngOnInit() {
   }
+  Topics: Topic[] = [{
+    name: "Input + Output",
+    routePath: "/inputoutput"
+  }];
 
+}
+
+interface Topic {
+  name: string;
+  routePath: string;
 }
