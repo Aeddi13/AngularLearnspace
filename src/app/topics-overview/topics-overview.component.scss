@@ -1,3 +1,19 @@
 .topic {
     background-color: lightblue;
+    margin: 10px;
+    width: 250px;
+    height: 150px;
 }
+
+.topic p {
+    margin: auto;
+    padding: 70px 0;
+    text-align: center;
+    font-size: x-large;
+}
+
+.flex-container {
+    display: flex;
+    background-color: lightgray;
+    padding: 10px;
+  }

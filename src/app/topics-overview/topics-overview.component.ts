@@ -10,9 +10,22 @@ export class TopicsOverviewComponent implements OnInit {
 
   ngOnInit() {
   }
+
   Topics: Topic[] = [{
     name: "Input + Output",
     routePath: "/inputoutput"
+  },
+  {
+    name: "Dummy 1",
+    routePath: "/"
+  },
+  {
+    name: "Dummy 2",
+    routePath: "/"
+  },
+  {
+    name: "Dummy 3",
+    routePath: "/"
   }];
 
 }

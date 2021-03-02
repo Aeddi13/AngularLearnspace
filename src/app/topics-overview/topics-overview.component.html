@@ -1,6 +1,9 @@
-<p>topics-overview works!</p>
-<div>
-    <div class="topic" *ngFor="let topic of Topics">
-        <a [routerLink]="topic.routePath" routerLinkActive="active">{{topic.name}}</a>
+<div class="flex-container">
+    <div *ngFor="let topic of Topics">
+        <a  [routerLink]="topic.routePath" routerLinkActive="active">
+            <div class="topic" >
+                <p>{{topic.name}}</p>
+            </div>
+        </a>
     </div>
 </div>
