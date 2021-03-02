@@ -11,4 +11,12 @@ export class InputOutputComponent implements OnInit {
   ngOnInit() {
   }
 
+  StringProperty: string = "hello from parent component";
+
+  updateNumberOfClicks(numerOfClicks: number)
+  {
+    this.numberOfClicksInChild = numerOfClicks;
+  }
+
+  numberOfClicksInChild: number = 0;
 }

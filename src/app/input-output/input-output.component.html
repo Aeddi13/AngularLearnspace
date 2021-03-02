@@ -1,1 +1,7 @@
-<p>input-output works!</p>
+<p>This component demonstrates the basics of @inputs and @outputs in Angular.</p>
+
+<!--  The input property of the child component can be set from the outside with a normal binding using square brackets []  -->
+<!--  The parent component listens to the output event of the child component using the normal brackes ().  -->
+<app-input-output-child [InputString]="StringProperty" (ButtonClickedEvent)="updateNumberOfClicks($event)"></app-input-output-child>
+
+<p>The button in the child component has been clicked {{numberOfClicksInChild}} times.</p>
