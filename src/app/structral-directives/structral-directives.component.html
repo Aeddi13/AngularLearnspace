@@ -1,3 +1,14 @@
 <h2>ngIf</h2>
 <input type="checkbox" [(ngModel)]="ShowContentNgIf" > click here to toggle ngIf content.
-<p *ngIf="ShowContentNgIf">This text only exists when "ShowContentNgIf" is true.</p>
+<p *ngIf="ShowContentNgIf">
+  This text is only visible when "ShowContentNgIf" is true.
+  In fact, if it is false this element gets completely removed from the DOM.
+</p>
+
+<h2>ngFor</h2>
+<p>The ngFor directive creates one element for each item in an array.</p>
+<div class="flex-container">
+  <div *ngFor="let item of ItemsNgFor" class="ngForItem">
+    <P>{{item}}</P>
+  </div>
+</div>

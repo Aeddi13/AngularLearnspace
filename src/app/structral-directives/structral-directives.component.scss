@@ -1,0 +1,19 @@
+.ngForItem {
+  background-color: lightblue;
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.ngForItem p {
+  margin: auto;
+  text-align: center;
+  font-size: x-large;
+  color: #555;
+}
+
+.flex-container {
+  display: flex;
+  background-color: lightgray;
+  padding: 10px;
+}
