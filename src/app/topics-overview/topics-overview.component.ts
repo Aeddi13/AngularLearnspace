@@ -16,8 +16,8 @@ export class TopicsOverviewComponent implements OnInit {
     routePath: "/inputoutput"
   },
   {
-    name: "Dummy 1",
-    routePath: "/"
+    name: "Structural Directives",
+    routePath: "/structuraldirectives"
   },
   {
     name: "Dummy 2",
