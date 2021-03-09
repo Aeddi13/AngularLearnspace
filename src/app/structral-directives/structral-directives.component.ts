@@ -11,4 +11,6 @@ export class StructralDirectivesComponent implements OnInit {
   ngOnInit() {
   }
 
+  ShowContentNgIf: boolean;
+
 }

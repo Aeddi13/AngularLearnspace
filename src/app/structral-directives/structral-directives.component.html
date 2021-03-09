@@ -1,1 +1,3 @@
-<p>structral-directives works!</p>
+<h2>ngIf</h2>
+<input type="checkbox" [(ngModel)]="ShowContentNgIf" > click here to toggle ngIf content.
+<p *ngIf="ShowContentNgIf">This text only exists when "ShowContentNgIf" is true.</p>
