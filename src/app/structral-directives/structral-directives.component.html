@@ -12,3 +12,12 @@
     <P>{{item}}</P>
   </div>
 </div>
+
+<h2>ngSwitch</h2>
+<input [(ngModel)]="StringExpressionNgSwitch" type="text"> enter an animal.
+<div [ngSwitch]="StringExpressionNgSwitch">
+  <p *ngSwitchCase="'cat'">The animal is a cat.</p>
+  <p *ngSwitchCase="'dog'">The animal is a dog.</p>
+  <p *ngSwitchDefault>The animal is neither a cat nor a dog.</p>
+
+</div>
