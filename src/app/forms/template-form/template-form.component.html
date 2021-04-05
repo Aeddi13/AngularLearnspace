@@ -1,0 +1,11 @@
+<p>This is a template form.</p>
+<div #simpleForm class="form-group" >
+  <div>
+    First name: <input #firstNameInput="ngModel" type="text" class="form-control" [(ngModel)]="firstName" required>
+    <p *ngIf="firstNameInput.errors.required">first name is required</p>
+  </div>
+  <span>Last name: <input type="text" class="form-control" [(ngModel)]="lastName" required></span>
+  <span>E-Mail: <input type="text" class="form-control" [(ngModel)]="email" required></span>
+  <span>Date of birth: <input type="date" class="form-control" [(ngModel)]="birthday" required></span>
+  <span><input type="button" value="Save" ></span>
+</div>

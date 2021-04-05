@@ -20,8 +20,8 @@ export class TopicsOverviewComponent implements OnInit {
     routePath: "/structuraldirectives"
   },
   {
-    name: "Dummy 2",
-    routePath: "/"
+    name: "Forms",
+    routePath: "/forms"
   },
   {
     name: "Dummy 3",

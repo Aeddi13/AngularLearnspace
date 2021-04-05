@@ -8,6 +8,8 @@ import { TopicsOverviewComponent } from './topics-overview/topics-overview.compo
 import { InputOutputComponent } from './input-output/input-output.component';
 import { InputOutputChildComponent } from './input-output/input-output-child/input-output-child.component';
 import { StructralDirectivesComponent } from './structral-directives/structral-directives.component';
+import { FormsComponent } from './forms/forms.component';
+import { TemplateFormComponent } from './forms/template-form/template-form.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { StructralDirectivesComponent } from './structral-directives/structral-d
     TopicsOverviewComponent,
     InputOutputComponent,
     InputOutputChildComponent,
-    StructralDirectivesComponent
+    StructralDirectivesComponent,
+    FormsComponent,
+    TemplateFormComponent
   ],
   imports: [
     BrowserModule,
